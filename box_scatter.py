@@ -82,7 +82,7 @@ def main():
   fig = plt.figure(figsize=(12,6))
   ax = [fig.add_subplot(1, 2, 1), fig.add_subplot(1, 2, 2)]
 
-  full_name = helper.scan_data('player full name:')
+  full_name = 'Jabari Walker'
   player = ply.get_player_by_name(name=full_name)
   seasons = ['2022-23', '2023-24']
   
